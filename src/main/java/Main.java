@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Main {
     public static void main( String[] args ) throws AWTException, IOException {
         System.out.println("Кофе-машина");
-        System.out.println("Введите сумму");
+        System.out.println("Введите сумму и не воняйте");
         //TODO: read from console
         Scanner myInput = new Scanner(System.in);
         int moneyAmount = myInput.nextInt();
